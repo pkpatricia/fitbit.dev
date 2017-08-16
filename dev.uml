@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>/Users/patriciaparker/Documents/Websites/fitbit.dev</OriginalElement>
+  <nodes>
+    <node x="0.0" y="75.0">/Users/patriciaparker/Documents/Websites/fitbit.dev/wp-content</node>
+    <node x="140.0" y="150.0">/Users/patriciaparker/Documents/Websites/fitbit.dev/images</node>
+    <node x="0.0" y="150.0">/Users/patriciaparker/Documents/Websites/fitbit.dev/wp-admin</node>
+    <node x="0.0" y="0.0">/Users/patriciaparker/Documents/Websites/fitbit.dev/wp-includes</node>
+    <node x="0.0" y="225.0">/Users/patriciaparker/Documents/Websites/fitbit.dev/.idea</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="108.5" y="127.5" />
+  <SelectedNodes>
+    <node>/Users/patriciaparker/Documents/Websites/fitbit.dev/wp-content</node>
+  </SelectedNodes>
+  <Categories />
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

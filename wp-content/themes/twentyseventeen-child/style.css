@@ -1,0 +1,464 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Signika");
+@import url("https://cdn.rawgit.com/scottjehl/picturefill/master/dist/picturefill.min.js");
+@import url("https://code.jquery.com/ui/1.12.1/jquery-ui.js");
+@import url("/assets/js/menu.js");
+@import url("/assets/images/rainbow_arrow.png");
+@import url("/assets/images/favicon.ico");
+
+
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+body {
+    font-size: 16px;
+    background-color: #FCE7E9;
+    color: #1c2847;
+}
+
+button.menu-toggle {
+    display:none;
+}
+
+.custom {
+    cursor: url("assets/images/rainbow_arrow.png"), pointer;
+}
+
+.img-circle {
+    border-radius: 50% !important;
+}
+
+img {
+    max-width: 100%!important;
+}
+.navigation {
+    max-width: 100% !important;
+}
+
+div#wp-custom-header.wp-custom-header {
+    max-width: 100% !important;
+}
+
+textarea {
+    width: 100%;
+    /*max-width: auto; */
+}
+
+.bgimg1 {
+    background: url("/assets/images/pink_code.jpg");
+    background-size: cover;
+    background-position: center 0;
+    overflow: hidden !important;
+    text-align: center;
+}
+
+.bgimg2 {
+    background: url("assets/images/laptop_pink3.jpg");
+    background-size: cover;
+    background-position: center 0;
+    overflow: hidden !important;
+    text-align: center;
+}
+
+.images {
+    background-size: auto !important;
+    width: 90% !important;
+    background-position: center !important;
+    overflow: hidden !important;
+}
+
+form {
+    margin: 0 auto;
+}
+
+#dot p, #dot h2, #dot h3 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.blue_border {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1c2847;
+}
+
+h1 {
+    text-transform: capitalize;
+    letter-spacing: .08em;
+    font-size: 36px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Signika', sans-serif;
+}
+
+.size {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.letterSpac {
+    letter-spacing: 1.2px;
+}
+
+.blue {
+    background-color: #1c2847;
+}
+
+.bluetxt {
+    color: #1c2847 !important;
+}
+
+.twitter {
+    color: #1DA1F2 !important;
+}
+
+.twitter:hover, .twitter:active {
+    text-decoration: none;
+    color: hotpink !important;
+}
+
+.twitter:link, .twitter:visited {
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink !important;
+}
+
+a:active {
+    text-decoration: none;
+    color: hotpink !important;
+}
+
+/*
+#dot a:active{text-decoration:none;color:#1c2847;}
+#dot a:visited{text-decoration:none;color:white;}
+#dot a:hover{text-decoration:none;color:#1c2847;}
+#dot a:link{text-decoration:underline;color:white;}
+*/
+header {
+
+    max-width: 100% !important;
+}
+
+section {
+    background-color: #fafafa;
+    padding: 3em;
+    margin-top: -1em;
+    overflow: hidden !important;
+    max-width: 100% !important;
+}
+
+.section2 {
+    background-color: #ffcdd2;
+    padding: 3em;
+    margin-top: -1em;
+    overflow: hidden !important;
+    max-width: 100% !important;
+}
+
+.button1:active {
+    background-color: #ffcdd2;
+    color: #1c2847 !important;
+}
+
+.button1:hover {
+    background-color: #ffcdd2;
+    color: #1c2847;
+    border-color: #1c2847 !important;
+}
+
+.button2:active {
+    background-color: #ffcdd2;
+    color: #1c2847 !important;
+}
+
+.button2:hover {
+    background-color: #ffcdd2;
+    color: #1c2847;
+    border-color: #ff007f !important;
+}
+
+.whitepic:active {
+    background-color: #ffcdd2;
+    color: #1c2847;
+}
+
+.whitepic:hover {
+    background-color: #ffcdd2;
+    color: #1c2847;
+    border-color: #1c2847 !important;
+}
+
+.btn {
+    color: #ffcdd2;
+    border: 1px solid #ffcdd2;
+    background-color: #1c2847;
+    margin-top: 2em;
+    line-height: 1.5;
+    border-radius: 481px;
+    padding: 11px 14px;
+    -webkit-transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+    -o-transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+    transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+    letter-spacing: 1.2px;
+    white-space: normal;
+    margin-bottom: 1em;
+}
+
+.whitepic {
+    color: #ffcdd2;
+    background-color: #1c2847;
+    padding: .4em;
+    margin: .3em;
+    border-radius: .3em;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
+.whitepicnolink {
+    color: #ffcdd2;
+    background-color: #1c2847;
+    padding: .4em;
+    margin: .3em;
+    border-radius: .3em;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
+.fa {
+    font-size: 5em;
+}
+
+.fa.fa-envelope, .fa.fa-file-text, .fa.fa-copyright, .fa.fa-star-half-o {
+    font-size: 1em;
+    padding-right: 0.5em;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.center {
+    padding: 3%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/*#dot.center{width:25em;}*/
+
+#dot {
+    font-size: 11px;
+    background-color: hotpink;
+    color: white;
+    border-radius: 50% !important;
+    text-align: center;
+    width: 20em;
+    height: 20em;
+    padding: 1em !important;
+    line-height: 1.5;
+}
+
+.text {
+    margin: 2em auto;
+}
+
+.third {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.double {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+p {
+    text-align: left;
+    padding: 0 3%;
+}
+
+div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    max-width: 100% !important;
+}
+
+.menu li {
+    font-size: 1.2em;
+}
+
+#dot2 {
+    font-size: 11px;
+    background-color: hotpink;
+    color: white;
+    border-radius: 50% !important;
+    text-align: center;
+    width: 20em;
+    height: 20em;
+    padding: 1em !important;
+    line-height: 1.5;
+}
+
+#dot2 p, #dot2 h2, #dot2 h3 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*#dot2 a:active{text-decoration:none;color:#1c2847;}
+#dot2 a:visited{text-decoration:none;color:white;}
+#dot2 a:hover{text-decoration:none;color:#1c2847;}
+#dot2 a:link{text-decoration:underline;color:white;}*/
+.class {
+    border: 1px solid #ffcdd2;
+    margin-top: 2em;
+    line-height: 1.5;
+    border-radius: 481px;
+    padding: 11px 14px;
+    letter-spacing: 1.2px;
+    white-space: normal;
+    margin-bottom: 1em;
+    color: #ffcdd2;
+    width: 12em;
+    background: -webkit-radial-gradient(#ff007f, #1c2847, #ffcdd2);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#ff007f, #1c2847, #ffcdd2);
+    /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#ff007f, #1c2847, #ffcdd2);
+    /* For Fx 3.6 to 15 */
+    background: radial-gradient(#ff007f, #1c2847, #ffcdd2);
+    /* Standard syntax (must be last) */
+}
+
+@media all and (max-width: 359px) {
+    .SvgImage {
+        width: 12.4em;
+        margin: 0 0 auto 3.3em !important;
+    }
+
+    .centericon {
+        width: 2em;
+        padding: .17em;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 400px) {
+    .SvgImage {
+        margin: 0 0 auto 3em !important;
+    }
+
+    .centericon {
+        width: 2em;
+        padding: .17em;
+    }
+}
+
+@media all and (min-width: 401px) and (max-width: 599px) {
+    .SvgImage {
+        width: 15em;
+        height: 15em;
+        margin: 0 0 auto 5em !important;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .SvgImage {
+        width: 25em;
+        height: 25em;
+        margin: 0 auto !important;
+    }
+
+    img {
+        max-width: 100%!important;
+    }
+
+    #dot {
+        font-size: 16px;
+        margin: 0 auto !important;
+    }
+
+    #dot2 {
+        font-size: 16px;
+        margin: 0 auto !important;
+    }
+
+    .double {
+        width: 50% !important;
+        float: left !important;
+        overflow: hidden !important;
+    }
+
+    .third {
+        width: 33.33% !important;
+        float: left !important;
+        overflow: hidden !important;
+    }
+
+    .center {
+        width: 25em;
+    }
+}
+
+@media all and (max-width: 860px) {
+    .search-form {
+        max-width: 186px;
+    }
+}
+
+@media all and (max-width: 970px) {
+    .search-form input {
+        max-width: 100px;
+    }
+}
